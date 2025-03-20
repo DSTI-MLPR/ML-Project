@@ -1,0 +1,32 @@
+Predicting Diabetes Outcome for Women
+Introduction
+Diabetes mellitus is a chronic metabolic disorder that affects the body's ability to regulate blood glucose levels effectively. The two primary types of diabetes are Type 1, an autoimmune condition, and Type 2, which is often linked to lifestyle factors. Predictive models using machine learning can aid in early diagnosis and management of diabetes. This project aims to develop an end-to-end machine learning pipeline to predict the onset of Type 2 diabetes in women based on a dataset from the Taipei Municipal Medical Center.
+Methodology
+Exploratory Data Analysis (EDA)
+•	The dataset consists of 15,000 observations with eight features: pregnancies, plasma glucose concentration, diastolic blood pressure, triceps skin fold thickness, serum insulin, BMI, diabetes pedigree function, and age.
+•	Visualizing feature distributions and correlations helped identify potential predictors.
+•	No missing values or outliers were handled .
+Feature Engineering and Selection
+•	Standardization and normalization techniques were applied where necessary to improve model performance.
+Model Selection, Comparison, and Evaluation
+•	Several classification models were considered, including: 
+o	Logistic Regression
+o	Random Forest
+•	Model performance was evaluated using accuracy, precision, recall, F1-score, and AUC-ROC metrics.
+•	The best-performing model was selected based on a balance between interpretability and predictive power.
+Results
+•	The best-performing model achieved an accuracy of , with an AUC-ROC score of .
+•	Feature importance analysis revealed that the number of pregnancies and age were the strongest predictors of diabetes.
+•	The confusion matrix and classification report indicated a well-balanced prediction performance.
+Deployment
+•	A web application was developed using Flask/Streamlit to provide an interactive interface for users to input their health parameters and receive a prediction.
+•	The application accepts manual inputs via a text box and CSV file uploads for batch predictions.
+•	The model is deployed as a backend service, ensuring scalability and ease of use.
+Conclusion
+This project successfully demonstrated the application of machine learning to predict diabetes outcomes in women. The developed model provides a tool for preliminary screening and decision support. Future improvements could include incorporating additional clinical features, utilizing deep learning techniques, and expanding the dataset for improved generalization.
+References
+•	Chou CY, Hsu DY, Chou CH. Predicting the Onset of Diabetes with Machine Learning Methods. J Pers Med. 2023 Feb 24;13(3):406. doi:10.3390/jpm13030406.
+•	WHO Diabetes Webpage: https://www.who.int/news-room/fact-sheets/detail/diabetes
+•	PIMA Indian Dataset: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+GitHub Repository
+Demo Video
