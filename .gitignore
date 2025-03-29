@@ -1,0 +1,57 @@
+# Python Backend
+__pycache__/
+ProjectMain/*.py[cod]
+ProjectMain/*$py.class
+ProjectMain/*.so
+ProjectMain/.Python
+ProjectMain/BackEnd/venv/
+ProjectMain/env/
+ProjectMain/build/
+ProjectMain/develop-eggs/
+ProjectMain/dist/
+ProjectMain/downloads/
+ProjectMain/eggs/
+ProjectMain/.eggs/
+ProjectMain/BackEnd/lib/
+ProjectMain/lib64/
+ProjectMain/parts/
+ProjectMain/sdist/
+ProjectMain/var/
+ProjectMain/wheels/
+ProjectMain/*.egg-info/
+ProjectMain/.installed.cfg
+ProjectMain/*.egg
+ProjectMain/.env
+ProjectMain/.venv
+ProjectMain/pip-log.txt
+ProjectMain/pip-delete-this-directory.txt
+ProjectMain/.pytest_cache/
+ProjectMain/.coverage
+ProjectMain/htmlcov/
+
+# Node.js Frontend
+ProjectMain/ml-webpage/node_modules/
+ProjectMain/ml-webpage/.next/
+ProjectMain/ml-webpage/out/
+ProjectMain/ml-webpage/.DS_Store
+ProjectMain/ml-webpage/.env.local
+ProjectMain/ml-webpage/.env.development.local
+ProjectMain/ml-webpage/.env.test.local
+ProjectMain/ml-webpage/.env.production.local
+ProjectMain/ml-webpage/npm-debug.log*
+ProjectMain/ml-webpage/yarn-debug.log*
+ProjectMain/ml-webpage/yarn-error.log*
+ProjectMain/ml-webpage/.pnpm-debug.log*
+ProjectMain/ml-webpage/.vercel
+ProjectMain/ml-webpage/.env
+
+# IDE specific files
+.idea/
+.vscode/
+ProjectMain/*.swp
+ProjectMain/*.swo
+ProjectMain/*~
+
+# OS specific files
+ProjectMain/.DS_Store
+ProjectMain/Thumbs.db 
