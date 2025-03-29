@@ -26,3 +26,21 @@ Age: Age in years
 
 Diabetic (Target Variable): 1 = Diabetes diagnosed, 0 = No diabetes diagnosed
 
+Project Structure
+
+ML-Project/
+├── data/
+│   └──TAIPEI_diabetes.csv   # Raw data for training the model
+├── notebooks/
+│   └── project_analysis.ipynb    # Jupyter notebook for data analysis
+│   └── model_training.ipynb      # Jupyter notebook for training the machine learning model
+├── src/
+│   └── app.py                    # Flask web application for deployment
+│   └── model.py                  # Model building and prediction code
+├── requirements.txt              # Python dependencies
+├── README.md                     # This file
+└── report.pdf                    # Project report
+
+License
+
+This project is licensed under the ? License - see the LICENSE file for details.
